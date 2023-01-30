@@ -1,0 +1,43 @@
+
+/*this is universal selector*/
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+/*this is element selector*/
+h1{
+	text-align:center;
+	color:black;
+	
+}
+h2{
+	color:brown;
+	background-color:violet;
+}
+h3{
+	color:red;
+	
+}
+/*this is grouping selector*/
+h2,h3{
+	text-align:left;
+	color:green;
+}
+/*this is ID selector*/
+#ctr1{
+	text-align:center;
+}
+/*this is class selector*/
+.container{
+	padding-bottom:50px;
+}
+.one{
+	text-align:left;
+}
+.two{
+	text-align:center;
+}
+.three{
+	text-align:right;
+}

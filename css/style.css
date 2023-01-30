@@ -1,0 +1,28 @@
+/*this is descadent selector*/
+div p{
+	background-color:grey;
+}
+/*this is adjacent sibling selector*/
+div + aside{
+	background-color:green;
+}
+/*this is general sibling selector*/
+div ~ article{
+	text-align:right;
+	padding:30px;
+	color:blue;
+}
+/*this is child  selector*/
+div > main {
+	text-align:right;
+	border:1px solid;
+	padding-right:50px;
+}
+/*this is heading*/
+h1{
+	text-align:center;
+	text-transform:uppercase;
+}
+h2{
+	color:pink;
+}

@@ -1,0 +1,33 @@
+h1{
+	text-align:center;
+	border-block:solid;
+	border-radius:50px;
+}
+a[target=_blank]{
+	background-color:green;
+	color:white;
+	font-size:50px;
+}
+a[target=_top]{
+	background-color:blue;
+	color:white;
+	font-size:50px;
+}
+[title~=set]{
+	border:7px solid green;
+}
+[class|=bottom]{
+	background-color:blue;
+	color:white;
+}
+[class*="test"]{
+	border:2px solid green;
+	border-radius:80px;
+	border-block:5px solid red;
+	border-inline:5px solid blue;
+}
+*{
+	
+	background-color:black;
+	color:white;
+	
